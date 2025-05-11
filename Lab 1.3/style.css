@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  text-align: center;
+  margin: 40px;
+}
+
+svg {
+  background-color: #f0f8ff;
+  border: 1px solid #ccc;
+}
+
+.bar {
+  transition: 0.3s;
+}
+
+.bar:hover {
+  opacity: 0.8;
+}
+
+.label,
+.value {
+  font-size: 12px;
+  fill: #000;
+}
+
+.label {
+  dominant-baseline: hanging;
+}
+
+.value {
+  dominant-baseline: auto;
+  font-weight: bold;
+}
